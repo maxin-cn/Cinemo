@@ -50,7 +50,6 @@ bash pipelines/animation.sh
 Than you will get the follwoing results,
 
 <table style="width:100%; text-align:center;">
-
 <tr>
   <td align="center">Input image</td>
   <td align="center">Output video</td>
@@ -94,42 +93,22 @@ bash pipelines/video_editing.sh
 ```
 
 Than you will get the follwoing results,
-<!-- 插入视频和图像排列在一行并添加标题 -->
-<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; text-align: center;">
 
-  <!-- 第一个视频 -->
-  <div style="width: 23%; margin-right: 5px;">
-    <img src="visuals/video_editing/origin/a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.gif" alt="第一张图像" style="width: 100%;">
-    <!-- <video controls style="width: 100%;">
-      <source src="visuals/video_editing/origin/a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.mp4" type="video/mp4">
-    </video> -->
-    <p>Input video</p>
-  </div>
-  
-  <!-- 第一张图像 -->
-  <div style="width: 23%; margin-right: 5px;">
-    <img src="visuals/video_editing/origin/0.jpg" alt="第一张图像" style="width: 100%;">
-    <p>First frame</p>
-  </div>
-  
-  <!-- 第二张图像 -->
-  <div style="width: 23%; margin-right: 5px;">
-    <img src="visuals/video_editing/edit/0.jpg" alt="第二张图像" style="width: 100%;">
-    <p>edited first frame</p>
-  </div>
-  
-  <!-- 第二个视频 -->
-  <div style="width: 23%;">
-    <img src="visuals/video_editing/edit/editing_a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.gif" alt="第二张图像" style="width: 100%;">
-    <!-- <video controls style="width: 100%;">
-      <source src="visuals/video_editing/edit/editing_a_corgi_walking_in_the_park_at_sunrise,_oil_painting_style.mp4" type="video/mp4">
-    </video> -->
-    <p>Output video</p>
-  </div>
+<table style="width:100%; text-align:center;">
+<tr>
+  <td align="center">Input video</td>
+  <td align="center">First frame</td>
+  <td align="center">Edited first frame</td>
+  <td align="center">Output video</td>
+</tr>
+<tr>
+  <td align="center"><img src="visuals/video_editing/origin/a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.gif" width="100%"></td>
+  <td align="center"><img src="visuals/video_editing/origin/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/video_editing/edit/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/video_editing/edit/editing_a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.gif" width="100%"></td>
+</tr>
 
-</div>
-
-
+</table>
 
 
 
