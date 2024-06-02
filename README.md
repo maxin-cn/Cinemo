@@ -52,10 +52,10 @@ Than you will get the follwoing results,
 <table style="width:100%; text-align:center;">
 
 <tr>
-  <td><b><center>Input image</center></b></td>
-  <td><b><center>Output video</center></b></td>
-  <td><b><center>Input image</center></b></td>
-  <td><b><center>Output video</center></b></td>
+  <td width=30% align="center">Input image</td>
+  <td width=30% align="center">Output video</td>
+  <td width=30% align="center">Input image</td>
+  <td width=30% align="center">Output video</td>
 </tr>
 <tr>
   <td><center><img src="visuals/animations/people_walking/0.jpg" alt="Input image" width="100%"></center></td>
