@@ -49,7 +49,7 @@ bash pipelines/animation.sh
 
 Than you will get the follwoing results,
 
-<table class="center" style="width:100%; text-align:center;">
+<table style="width:100%; text-align:center;">
 
 <tr>
   <td><b>Input image</b></td>
@@ -58,20 +58,20 @@ Than you will get the follwoing results,
   <td><b>Output video</b></td>
 </tr>
 <tr>
-  <td><img src="visuals/animations/people_walking/0.jpg" alt="Input image" width="100%"></td>
-  <td><img src="visuals/animations/people_walking/people_walking.gif" alt="Output video" width="100%"></td>
-  <td><img src="visuals/animations/sea_swell/0.jpg" alt="Input image" width="100%"></td>
-  <td><img src="visuals/animations/sea_swell/sea_swell.gif" alt="Output video" width="100%"></td>
+  <td><center><img src="visuals/animations/people_walking/0.jpg" alt="Input image" width="100%"></center></td>
+  <td><center><img src="visuals/animations/people_walking/people_walking.gif" alt="Output video" width="100%"></center></td>
+  <td><center><img src="visuals/animations/sea_swell/0.jpg" alt="Input image" width="100%"></center></td>
+  <td><center><img src="visuals/animations/sea_swell/sea_swell.gif" alt="Output video" width="100%"></center></td>
 </tr>
 <tr>
   <td colspan="2"><b>People Walking</b></td>
   <td colspan="2"><b>Sea Swell</b></td>
 </tr>
 <tr>
-  <td><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" alt="Input image" width="100%"></td>
-  <td><img src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" alt="Output video" width="100%"></td>
-  <td><img src="visuals/animations/dragon_glowing_eyes/0.jpg" alt="Input image" width="100%"></td>
-  <td><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" alt="Output video" width="100%"></td>
+  <td><center><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" alt="Input image" width="100%"></center></td>
+  <td><center><img src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" alt="Output video" width="100%"></center></td>
+  <td><center><img src="visuals/animations/dragon_glowing_eyes/0.jpg" alt="Input image" width="100%"></center></td>
+  <td><center><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" alt="Output video" width="100%"></center></td>
 </tr>
 <tr>
   <td colspan="2"><b>Girl Dancing under the Stars</b></td>
@@ -79,6 +79,7 @@ Than you will get the follwoing results,
 </tr>
 
 </table>
+
 
 
 
