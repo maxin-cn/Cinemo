@@ -1,0 +1,36 @@
+# ckpt
+ckpt: /mnt/lustre/maxin/work/animation/animation-v6/results_qt_003-UNet-pixabaylaion-Xfor-Gc-320_512_0303000.pt
+save_img_path: "./sample_videos/"
+
+pretrained_model_path: "/mnt/hwfile/gcc/maxin/work/pretrained/stable-diffusion-v1-4/"
+
+# model config: 
+model: UNet
+video_length: 15
+image_size: [320, 512]
+# beta schedule
+beta_start: 0.0001
+beta_end: 0.02
+beta_schedule: "linear"
+
+# model speedup
+use_compile: False
+use_fp16: True
+
+# sample config:
+seed:
+run_time: 0
+use_dct: True
+guidance_scale: 7.5 #
+motion_bucket_id: 95 # [0-19] The larger the value, the stronger the motion intensity
+sample_method: 'DDIM'
+num_sampling_steps: 50
+enable_vae_temporal_decoder: True
+image_prompts: [
+              ['aircraft.jpg', 'aircrafts flying'],
+              ['car.jpg' ,"car moving"],
+              ['fireworks.jpg', 'fireworks'],
+              ['flowers.jpg', 'flowers swaying'],
+              ['forest.jpg', 'people walking'],
+              ['shark_unwater.jpg', 'shark falling into the sea'],
+              ]
