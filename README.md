@@ -52,20 +52,20 @@ Than you will get the follwoing results,
 <table style="width:100%; text-align:center;">
 
 <tr>
-  <td width=30% align="center">Input image</td>
-  <td width=30% align="center">Output video</td>
-  <td width=30% align="center">Input image</td>
-  <td width=30% align="center">Output video</td>
+  <td align="center">Input image</td>
+  <td align="center">Output video</td>
+  <td align="center">Input image</td>
+  <td align="center">Output video</td>
 </tr>
 <tr>
-  <td><center><img src="visuals/animations/people_walking/0.jpg" alt="Input image" width="100%"></center></td>
-  <td><center><img src="visuals/animations/people_walking/people_walking.gif" alt="Output video" width="100%"></center></td>
-  <td><center><img src="visuals/animations/sea_swell/0.jpg" alt="Input image" width="100%"></center></td>
-  <td><center><img src="visuals/animations/sea_swell/sea_swell.gif" alt="Output video" width="100%"></center></td>
+  <td align="center"><img src="visuals/animations/people_walking/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/people_walking/people_walking.gif" width="100%"></td>
+  <td align="center"><img src="visuals/animations/sea_swell/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/sea_swell/sea_swell.gif" width="100%"></td>
 </tr>
 <tr>
-  <td colspan="2"><center><b>People Walking</b></center></td>
-  <td colspan="2"><center><b>Sea Swell</b></center></td>
+  <td align="center" colspan="2">People Walking</td>
+  <td align="center" colspan="2">Sea Swell</td>
 </tr>
 <tr>
   <td><center><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" alt="Input image" width="100%"></center></td>
