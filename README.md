@@ -49,7 +49,8 @@ bash pipelines/animation.sh
 
 Than you will get the follwoing results,
 
-<table class="center">
+<table class="center" style="width:100%;">
+
 <tr>
   <td style="text-align:center;"><b>Input image</b></td>
   <td style="text-align:center;"><b>Output video</b></td>
@@ -57,19 +58,31 @@ Than you will get the follwoing results,
   <td style="text-align:center;"><b>Output video</b></td>
 </tr>
 <tr>
-  <td><image src="visuals/animations/people_walking/0.jpg" autoplay></td>
-  <td><image src="visuals/animations/people_walking/people_walking.gif" autoplay></td>
-  <td><image src="visuals/animations/sea_swell/0.jpg" autoplay></td>
-  <td><image src="visuals/animations/sea_swell/sea_swell.gif" autoplay></td>
+  <td style="text-align:center;"><img src="visuals/animations/people_walking/0.jpg" alt="Input image" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/people_walking/people_walking.gif" alt="Output video" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/sea_swell/0.jpg" alt="Input image" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/sea_swell/sea_swell.gif" alt="Output video" width="100%"></td>
 </tr>
 
 <tr>
-  <td><image src="visuals/animations/girl_dancing_under_the_stars/0.jpg" autoplay></td>
-  <td><image src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" autoplay></td>
-  <td><image src="visuals/animations/dragon_glowing_eyes/0.jpg" autoplay></td>
-  <td><image src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" autoplay></td>
+  <td colspan="2" style="text-align:center;"><b>people_walking</b></td>
+  <td colspan="2" style="text-align:center;"><b>people_walking</b></td>
 </tr>
+
+<tr>
+  <td style="text-align:center;"><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" alt="Input image" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" alt="Output video" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/dragon_glowing_eyes/0.jpg" alt="Input image" width="100%"></td>
+  <td style="text-align:center;"><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" alt="Output video" width="100%"></td>
+</tr>
+
+<tr>
+  <td colspan="2" style="text-align:center;"><b>people_walking</b></td>
+  <td colspan="2" style="text-align:center;"><b>people_walking</b></td>
+</tr>
+
 </table>
+
 
 
 ## Other Applications
