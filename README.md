@@ -61,7 +61,7 @@ Than you will get the follwoing results,
   <div style="width: 23%; margin-right: 5px;">
     <h4 style="margin: 0;">Output video</h4>
     <video controls style="width: 100%; margin: 5px 0;">
-      <source src="visuals/animations/people_walking/people_walking.mp4" type="video/mp4">
+      <source src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/people_walking/people_walking.mp4?download=true" type="video/mp4">
     </video>
   </div>
   
@@ -76,7 +76,7 @@ Than you will get the follwoing results,
   <div style="width: 23%;">
     <h4 style="margin: 0;">Output video</h4>
     <video controls style="width: 100%; margin: 5px 0;">
-      <source src="visuals/animations/sea_swell/sea_swell.mp4" type="video/mp4">
+      <source src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/sea_swell/sea_swell.mp4?download=true" type="video/mp4">
     </video>
   </div>
 
@@ -106,7 +106,7 @@ Than you will get the follwoing results,
   <!-- 第一个视频 -->
   <div style="width: 23%; margin-right: 5px;">
     <video controls style="width: 100%; margin: 5px 0;">
-      <source src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.mp4" type="video/mp4">
+      <source src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.mp4?download=true" type="video/mp4">
     </video>
   </div>
   
@@ -119,7 +119,7 @@ Than you will get the follwoing results,
   <!-- 第二个视频 -->
   <div style="width: 23%;">
     <video controls style="width: 100%; margin: 5px 0;">
-      <source src="https://drive.google.com/file/d/1raxl2EH6vhJPf_BOCPrIPgHBJGBBNi6b/view?usp=drive_link" type="video/mp4">
+      <source src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.mp4?download=true" type="video/mp4">
     </video>
   </div>
 
