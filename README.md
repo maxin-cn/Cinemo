@@ -52,8 +52,8 @@ Than you will get the follwoing results,
 <tr>
   <td style="text-align:center;"><b>Input image</b></td>
   <td style="text-align:center;"><b>Output video</b></td>
-  <td style="text-align:center;"><b>Input image<</b></td>
-  <td style="text-align:center;"><b>Output video<</b></td>
+  <td style="text-align:center;"><b>Input image</b></td>
+  <td style="text-align:center;"><b>Output video</b></td>
 </tr>
 <tr>
   <td><image src="visuals/animations/people_walking/0.jpg"></td>
