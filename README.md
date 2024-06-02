@@ -48,6 +48,21 @@ bash pipelines/animation.sh
 ```
 
 Than you will get the follwoing results,
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Input image</b></td>
+  <td style="text-align:center;"><b>Output video</b></td>
+  <td style="text-align:center;"><b>Input image<</b></td>
+  <td style="text-align:center;"><b>Output video<</b></td>
+</tr>
+<tr>
+  <td><image src="visuals/animations/people_walking/0.jpg"></td>
+  <td><video src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/people_walking/people_walking.mp4?download=true" autoplay></td>
+  <td><image src="visuals/animations/sea_swell/0.jpg"></td>
+  <td><video src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/sea_swell/sea_swell.mp4?download=true" autoplay></td>
+</tr>
+</table>
+
 <!-- 插入视频和图像排列在一行并添加标题 -->
 <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; text-align: center;">
 
@@ -153,7 +168,7 @@ Than you will get the follwoing results,
   <!-- 第一个视频 -->
   <div style="width: 23%; margin-right: 5px;">
     <video controls style="width: 100%;">
-      <source src="https://github.com/PKU-YuanGroup/Open-Sora-Plan/assets/62638829/060b6417-195b-4579-b13c-885da5d8bb6b" type="video/mp4">
+      <source src="visuals/video_editing/origin/a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.mp4" type="video/mp4">
     </video>
     <p>Input video</p>
   </div>
@@ -173,7 +188,7 @@ Than you will get the follwoing results,
   <!-- 第二个视频 -->
   <div style="width: 23%;">
     <video controls style="width: 100%;">
-      <source src="https://github.com/PKU-YuanGroup/Open-Sora-Plan/assets/62638829/060b6417-195b-4579-b13c-885da5d8bb6b" type="video/mp4">
+      <source src="visuals/video_editing/edit/editing_a_corgi_walking_in_the_park_at_sunrise,_oil_painting_style.mp4" type="video/mp4">
     </video>
     <p>Output video</p>
   </div>
