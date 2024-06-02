@@ -62,6 +62,13 @@ Than you will get the follwoing results,
   <td><image src="visuals/animations/sea_swell/0.jpg" autoplay></td>
   <td><image src="visuals/animations/sea_swell/sea_swell.gif" autoplay></td>
 </tr>
+
+<tr>
+  <td><image src="visuals/animations/girl_dancing_under_the_stars/0.jpg" autoplay></td>
+  <td><image src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" autoplay></td>
+  <td><image src="visuals/animations/dragon_glowing_eyes/0.jpg" autoplay></td>
+  <td><image src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" autoplay></td>
+</tr>
 </table>
 
 <!-- 插入视频和图像排列在一行并添加标题 -->
