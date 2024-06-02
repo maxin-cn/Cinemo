@@ -153,7 +153,7 @@ Than you will get the follwoing results,
   <!-- 第一个视频 -->
   <div style="width: 23%; margin-right: 5px;">
     <video controls style="width: 100%;">
-      <source src="visuals/video_editing/origin/a_corgi_walking_in_the_park_at_sunrise_oil_painting_style.mp4" type="video/mp4">
+      <source src="https://github.com/PKU-YuanGroup/Open-Sora-Plan/assets/62638829/060b6417-195b-4579-b13c-885da5d8bb6b" type="video/mp4">
     </video>
     <p>Input video</p>
   </div>
@@ -173,7 +173,7 @@ Than you will get the follwoing results,
   <!-- 第二个视频 -->
   <div style="width: 23%;">
     <video controls style="width: 100%;">
-      <source src="visuals/video_editing/edit/editing_a_corgi_walking_in_the_park_at_sunrise,_oil_painting_style.mp4" type="video/mp4">
+      <source src="https://github.com/PKU-YuanGroup/Open-Sora-Plan/assets/62638829/060b6417-195b-4579-b13c-885da5d8bb6b" type="video/mp4">
     </video>
     <p>Output video</p>
   </div>
