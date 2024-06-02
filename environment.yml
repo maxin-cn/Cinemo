@@ -9,7 +9,7 @@ dependencies:
   - pytorch-cuda >= 11.7
   - pip:
     - timm
-    - diffusers[torch]>=0.24.0
+    - diffusers[torch]==0.24.0
     - accelerate
     - python-hostlist
     - tensorboard
