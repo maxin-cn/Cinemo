@@ -68,14 +68,14 @@ Than you will get the follwoing results,
   <td align="center" colspan="2">Sea Swell</td>
 </tr>
 <tr>
-  <td><center><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" alt="Input image" width="100%"></center></td>
-  <td><center><img src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" alt="Output video" width="100%"></center></td>
-  <td><center><img src="visuals/animations/dragon_glowing_eyes/0.jpg" alt="Input image" width="100%"></center></td>
-  <td><center><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" alt="Output video" width="100%"></center></td>
+  <td align="center"><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/girl_dancing_under_the_stars/girl_dancing_under_the_stars.gif" width="100%"></td>
+  <td align="center"><img src="visuals/animations/dragon_glowing_eyes/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" width="100%"></td>
 </tr>
 <tr>
-  <td colspan="2"><center><b>Girl Dancing under the Stars</b></center></td>
-  <td colspan="2"><center><b>Dragon Glowing Eyes</b></center></td>
+  <td align="center" colspan="2">Girl Dancing under the Stars</td>
+  <td align="center" colspan="2">Dragon Glowing Eyes</td>
 </tr>
 
 </table>
