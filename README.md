@@ -14,7 +14,7 @@ This repo contains pre-trained weights, and sampling code for our paper explorin
 we propose a novel method called Cinemo, which can perform motion-controllable image animation with strong consistency and smoothness. To improve motion smoothness, Cinemo learns the distribution of motion residuals, rather than directly generating subsequent frames. Additionally, a structural similarity index-based method is proposed to control the motion intensity. Furthermore, we propose a noise refinement technique based on discrete cosine transformation to ensure temporal consistency. These three methods help Cinemo generate highly consistent, smooth, and motion-controlled image animation results. Compared to previous methods, Cinemo offers simpler and more precise user control and better generative performance.
  
 <div align="center">
-    <img src="visuals/pipeline.svg" width="650">
+    <img src="visuals/pipeline.svg">
 </div>
 
 ## News
@@ -78,10 +78,6 @@ Than you will get the follwoing results,
 </tr>
 
 </table>
-
-
-
-
 
 
 ## Other Applications
