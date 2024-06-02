@@ -76,8 +76,8 @@ Than you will get the follwoing results,
   <td align="center" colspan="2">Girl Dancing under the Stars</td>
   <td align="center" colspan="2">Dragon Glowing Eyes</td>
 </tr>
-</table>
 
+</table>
 
 
 ## Other Applications
