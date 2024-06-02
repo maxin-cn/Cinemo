@@ -49,7 +49,18 @@ bash pipelines/animation.sh
 
 Than you will get the follwoing results,
 
-<table style="width:100%; text-align:center;">
+<style>
+    .no-border-table {
+        border-collapse: collapse;
+    }
+    .no-border-table td, .no-border-table th {
+        border: none;
+        padding: 8px; /* 调整单元格内边距 */
+    }
+</style>
+
+<table class="no-border-table" style="width:100%; text-align:center;">
+<!-- <table style="width:100%; text-align:center;"> -->
 <tr>
   <td align="center">Input image</td>
   <td align="center">Output video</td>
