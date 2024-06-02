@@ -63,8 +63,8 @@ Than you will get the follwoing results,
   <td align="center"><img src="visuals/animations/sea_swell/sea_swell.gif" width="100%"></td>
 </tr>
 <tr>
-  <td align="center" colspan="2">People Walking</td>
-  <td align="center" colspan="2">Sea Swell</td>
+  <td align="center" colspan="2">"People Walking"</td>
+  <td align="center" colspan="2">"Sea Swell"</td>
 </tr>
 <tr>
   <td align="center"><img src="visuals/animations/girl_dancing_under_the_stars/0.jpg" width="100%"></td>
@@ -73,8 +73,8 @@ Than you will get the follwoing results,
   <td align="center"><img src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.gif" width="100%"></td>
 </tr>
 <tr>
-  <td align="center" colspan="2">Girl Dancing under the Stars</td>
-  <td align="center" colspan="2">Dragon Glowing Eyes</td>
+  <td align="center" colspan="2">"Girl Dancing under the Stars"</td>
+  <td align="center" colspan="2">"Dragon Glowing Eyes"</td>
 </tr>
 
 </table>
