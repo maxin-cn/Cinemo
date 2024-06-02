@@ -49,6 +49,21 @@ bash pipelines/animation.sh
 
 Than you will get the follwoing results,
 
+<table class="center">
+<tr>
+  <td style="text-align:center;"><b>Input image</b></td>
+  <td style="text-align:center;"><b>Output video</b></td>
+  <td style="text-align:center;"><b>Input image</b></td>
+  <td style="text-align:center;"><b>Output video</b></td>
+</tr>
+<tr>
+  <td><image src="visuals/animations/people_walking/0.jpg" autoplay></td>
+  <td><image src="visuals/animations/people_walking/people_walking.gif" autoplay></td>
+  <td><image src="visuals/animations/sea_swell/0.jpg" autoplay></td>
+  <td><image src="visuals/animations/sea_swell/sea_swell.gif" autoplay></td>
+</tr>
+</table>
+
 <!-- 插入视频和图像排列在一行并添加标题 -->
 <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; text-align: center;">
 
