@@ -57,7 +57,7 @@ Than you will get the follwoing results,
 </tr>
 <tr>
   <td><image src="visuals/animations/people_walking/0.jpg"></td>
-  <td><video src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/people_walking/people_walking.mp4" autoplay></td>
+  <td><video src="https://huggingface.co/maxin-cn/Cinemo/blob/main/visuals/animations/people_walking/people_walking.mp4" autoplay></td>
   <td><image src="visuals/animations/sea_swell/0.jpg"></td>
   <td><video src="https://huggingface.co/maxin-cn/Cinemo/resolve/main/visuals/animations/sea_swell/sea_swell.mp4" autoplay></td>
 </tr>
