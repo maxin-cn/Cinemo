@@ -119,7 +119,7 @@ Than you will get the follwoing results,
   <!-- 第二个视频 -->
   <div style="width: 23%;">
     <video controls style="width: 100%; margin: 5px 0;">
-      <source src="visuals/animations/dragon_glowing_eyes/dragon_glowing_eyes.mp4" type="video/mp4">
+      <source src="https://drive.google.com/file/d/1raxl2EH6vhJPf_BOCPrIPgHBJGBBNi6b/view?usp=drive_link" type="video/mp4">
     </video>
   </div>
 
