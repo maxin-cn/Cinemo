@@ -43,7 +43,7 @@ You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipe
 bash pipelines/animation.sh
 ```
 
-Than you will get the follwoing results,
+All related checkpoints will download automatically and then you will get the follwoing results,
 
 <table style="width:100%; text-align:center;">
 <tr>
@@ -84,7 +84,7 @@ You can also utilize Cinemo for other applications, such as motion transfer and 
 bash pipelines/video_editing.sh
 ```
 
-Than you will get the follwoing results,
+All related checkpoints will download automatically and you will get the follwoing results,
 
 <table style="width:100%; text-align:center;">
 <tr>
