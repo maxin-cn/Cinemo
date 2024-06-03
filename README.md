@@ -37,13 +37,13 @@ conda activate cinemo
 
 ## Animation 
 
-You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipelines/animation.py). Weights for our pre-trained Cinemo model can be found [here](https://huggingface.co/maxin-cn/Cinemo/tree/main).  The script has various arguments to adjust sampling steps, change the classifier-free guidance scale, etc:
+You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipelines/animation.py). Weights for our pre-trained Cinemo model can be found [here](https://huggingface.co/maxin-cn/Cinemo/tree/main).  The script has various arguments for adjusting sampling steps, changing the classifier-free guidance scale, etc:
 
 ```bash
 bash pipelines/animation.sh
 ```
 
-All related checkpoints will download automatically and then you will get the follwoing results,
+All related checkpoints will download automatically and then you will get the following results,
 
 <table style="width:100%; text-align:center;">
 <tr>
@@ -84,7 +84,7 @@ You can also utilize Cinemo for other applications, such as motion transfer and 
 bash pipelines/video_editing.sh
 ```
 
-All related checkpoints will download automatically and you will get the follwoing results,
+All related checkpoints will download automatically and you will get the following results,
 
 <table style="width:100%; text-align:center;">
 <tr>
