@@ -89,9 +89,9 @@ def main(args):
     
     if args.enable_vae_temporal_decoder:
         if args.use_dct:
-            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained("/mnt/hwfile/gcc/maxin/work/pretrained/t2v_required_models/", subfolder="vae_temporal_decoder", torch_dtype=torch.float64).to(device)
+            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained(args.pretrained_model_path, subfolder="vae_temporal_decoder", torch_dtype=torch.float64).to(device)
         else:
-            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained("/mnt/hwfile/gcc/maxin/work/pretrained/t2v_required_models/", subfolder="vae_temporal_decoder", torch_dtype=torch.float16).to(device)
+            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained(args.pretrained_model_path, subfolder="vae_temporal_decoder", torch_dtype=torch.float16).to(device)
         vae = deepcopy(vae_for_base_content).to(dtype=dtype)
     else:
         vae_for_base_content = AutoencoderKL.from_pretrained(args.pretrained_model_path, subfolder="vae",).to(device, dtype=torch.float64)
@@ -190,11 +190,9 @@ def main(args):
     imageio.mimwrite(args.save_img_path + prompt.replace(' ', '_') + '_%04d' % args.run_time + '-imageio.mp4', videos[0], fps=8, quality=8) # highest quality is 10, lowest is 0
     print('save path {}'.format(args.save_img_path))
 
-    # save_videos_grid(video, f"./{prompt}.gif")
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, default="./configs/wbv10m_train.yaml")
+    parser.add_argument("--config", type=str, default="./configs/sample.yaml")
     args = parser.parse_args()
 
     main(OmegaConf.load(args.config))

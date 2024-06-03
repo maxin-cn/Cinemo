@@ -27,8 +27,7 @@ def get_lr_scheduler(optimizer, name, **kwargs):
 def get_models(args):
     
     if 'UNet' in args.model:
-        pretrained_model_path = args.pretrained_model_path
-        return UNet3DConditionModel.from_pretrained_2d(pretrained_model_path, subfolder="unet")
+        return UNet3DConditionModel.from_pretrained(args.pretrained_model_path, subfolder="unet")
     else:
         raise '{} Model Not Supported!'.format(args.model)
     

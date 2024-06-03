@@ -778,42 +778,42 @@ class UNet3DConditionModel(ModelMixin, ConfigMixin, UNet2DConditionLoadersMixin)
         eps = torch.cat([half_eps, half_eps], dim=0)
         return torch.cat([eps, rest], dim=1)
     
-    @classmethod
-    def from_pretrained_2d(cls, pretrained_model_path, subfolder=None):
-        if subfolder is not None:
-            pretrained_model_path = os.path.join(pretrained_model_path, subfolder)
+    # @classmethod
+    # def from_pretrained_2d(cls, pretrained_model_path, subfolder=None):
+    #     if subfolder is not None:
+    #         pretrained_model_path = os.path.join(pretrained_model_path, subfolder)
 
 
-        config_file = os.path.join(pretrained_model_path, 'config.json')
-        if not os.path.isfile(config_file):
-            raise RuntimeError(f"{config_file} does not exist")
-        with open(config_file, "r") as f:
-            config = json.load(f)
-        config["_class_name"] = cls.__name__
-        config["down_block_types"] = [
-               "CrossAttnDownBlock3D",
-               "CrossAttnDownBlock3D",
-               "CrossAttnDownBlock3D",
-               "DownBlock3D"
-        ]
+    #     config_file = os.path.join(pretrained_model_path, 'config.json')
+    #     if not os.path.isfile(config_file):
+    #         raise RuntimeError(f"{config_file} does not exist")
+    #     with open(config_file, "r") as f:
+    #         config = json.load(f)
+    #     config["_class_name"] = cls.__name__
+    #     config["down_block_types"] = [
+    #            "CrossAttnDownBlock3D",
+    #            "CrossAttnDownBlock3D",
+    #            "CrossAttnDownBlock3D",
+    #            "DownBlock3D"
+    #     ]
 
-        config["mid_block_type"] = "UNetMidBlock3DCrossAttn"
+    #     config["mid_block_type"] = "UNetMidBlock3DCrossAttn"
 
-        config["up_block_types"] = [
-               "UpBlock3D",
-               "CrossAttnUpBlock3D",
-               "CrossAttnUpBlock3D",
-               "CrossAttnUpBlock3D"
-        ]
+    #     config["up_block_types"] = [
+    #            "UpBlock3D",
+    #            "CrossAttnUpBlock3D",
+    #            "CrossAttnUpBlock3D",
+    #            "CrossAttnUpBlock3D"
+    #     ]
 
-        # animation training method
-        config["addition_embed_type"] = "motion_ids"
-        # config["addition_embed_type"] = ""
-        # config["addition_embed_type_num_heads"] = 64
-        config["addition_time_embed_dim"] = 256
-        # config["projection_class_embeddings_input_dim"] = 2816
+    #     # animation training method
+    #     config["addition_embed_type"] = "motion_ids"
+    #     # config["addition_embed_type"] = ""
+    #     # config["addition_embed_type_num_heads"] = 64
+    #     config["addition_time_embed_dim"] = 256
+    #     # config["projection_class_embeddings_input_dim"] = 2816
 
-        from diffusers.utils import WEIGHTS_NAME # diffusion_pytorch_model.bin
+    #     from diffusers.utils import WEIGHTS_NAME # diffusion_pytorch_model.bin
         
-        model = cls.from_config(config)
-        return model   
+    #     model = cls.from_config(config)
+    #     return model   

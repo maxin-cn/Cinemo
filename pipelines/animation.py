@@ -13,13 +13,11 @@ from omegaconf import OmegaConf
 import os, sys
 sys.path.append(os.path.split(sys.path[0])[0])
 from models import get_models
-from utils import find_model
 import imageio
 from PIL import Image
 import numpy as np
 from datasets import video_transforms
 from torchvision import transforms
-import time
 from einops import rearrange, repeat
 from utils import dct_low_pass_filter, exchanged_mixed_dct_freq
 from copy import deepcopy
@@ -43,17 +41,11 @@ def main(args):
 
     unet = get_models(args).to(device, dtype=dtype)
 
-    t0 = time.time()
-    state_dict = find_model(args.ckpt)
-    print("Model download time: ", time.time() - t0)
-    unet.load_state_dict(state_dict)
-    
-
     if args.enable_vae_temporal_decoder:
         if args.use_dct:
-            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained("/mnt/hwfile/gcc/maxin/work/pretrained/t2v_required_models/", subfolder="vae_temporal_decoder", torch_dtype=torch.float64).to(device)
+            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained(args.pretrained_model_path, subfolder="vae_temporal_decoder", torch_dtype=torch.float64).to(device)
         else:
-            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained("/mnt/hwfile/gcc/maxin/work/pretrained/t2v_required_models/", subfolder="vae_temporal_decoder", torch_dtype=torch.float16).to(device)
+            vae_for_base_content = AutoencoderKLTemporalDecoder.from_pretrained(args.pretrained_model_path, subfolder="vae_temporal_decoder", torch_dtype=torch.float16).to(device)
         vae = deepcopy(vae_for_base_content).to(dtype=dtype)
     else:
         vae_for_base_content = AutoencoderKL.from_pretrained(args.pretrained_model_path, subfolder="vae",).to(device, dtype=torch.float64)

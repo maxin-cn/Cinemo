@@ -78,7 +78,7 @@ Than you will get the follwoing results,
 
 ## Other Applications
 
-You can also utilize Cinemo to other applications, such as motion transfer and video editing:
+You can also utilize Cinemo for other applications, such as motion transfer and video editing:
 
 ```bash
 bash pipelines/video_editing.sh
