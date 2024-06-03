@@ -109,7 +109,7 @@ If you find this work useful for your research, please consider citing it.
 ```bibtex
 @article{ma2024Cinemo,
   title={Cinemo: Latent Diffusion Transformer for Video Generation},
-  author={Ma, Xin and Wang, Yaohui and Jia, Gengyun and Chen, Xinyuan and Liu, Ziwei and Li, Yuan-Fang and Chen, Cunjian and Qiao, Yu},
+  author={Ma, Xin and Wang, Yaohui and Jia, Gengyun and Chen, Xinyuan and Li, Yuan-Fang and Chen, Cunjian and Qiao, Yu},
   journal={arXiv preprint arXiv:2401.03048},
   year={2024}
 }
