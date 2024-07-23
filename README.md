@@ -1,7 +1,7 @@
 ## Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models<br><sub>Official PyTorch Implementation</sub>
 
 
-[![Arxiv](https://img.shields.io/badge/Arxiv-b31b1b.svg)](https://maxin-cn.github.io/cinemo_project/) 
+[![Arxiv](https://img.shields.io/badge/Arxiv-b31b1b.svg)](https://arxiv.org/abs/2407.15642) 
 [![Project Page](https://img.shields.io/badge/Project-Website-blue)](https://maxin-cn.github.io/cinemo_project/)
 
 
