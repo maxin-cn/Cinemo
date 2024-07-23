@@ -107,16 +107,16 @@ All related checkpoints will download automatically and you will get the followi
 
 
 
-<!-- ## Citation
+## Citation
 If you find this work useful for your research, please consider citing it.
 ```bibtex
-@article{ma2024Cinemo,
+@article{ma2024cinemo,
   title={Cinemo: Latent Diffusion Transformer for Video Generation},
   author={Ma, Xin and Wang, Yaohui and Jia, Gengyun and Chen, Xinyuan and Li, Yuan-Fang and Chen, Cunjian and Qiao, Yu},
-  journal={arXiv preprint arXiv:2401.03048},
+  journal={arXiv preprint arXiv:2407.15642},
   year={2024}
 }
-``` -->
+```
 
 
 ## Acknowledgments
