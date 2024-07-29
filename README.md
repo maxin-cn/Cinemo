@@ -78,6 +78,12 @@ All related checkpoints will download automatically and then you will get the fo
 
 </table>
 
+## Gradio interface
+We also provide a Gradio interface for a better experience, just run by:
+```bash
+python app.py
+```
+You can specify the `--share` and `--server_name` arguments to satisfy your needs!
 
 ## Other Applications
 
