@@ -117,7 +117,9 @@ All related checkpoints will download automatically and you will get the followi
 
 </table>
 
-
+## Contact Us
+**Xin Ma**: [xin.ma1@monash.edu](mailto:xin.ma1@monash.edu)
+**Yaohui Wang**: [wangyaohui@pjlab.org.cn](mailto:wangyaohui@pjlab.org.cn)
 
 ## Citation
 If you find this work useful for your research, please consider citing it.
