@@ -15,6 +15,8 @@ In this project, we propose a novel method called Cinemo, which can perform moti
 
 ## News
 
+- (🔥 New) Jul. 29, 2024. 💥 Add the [online](https://huggingface.co/spaces/maxin-cn/Cinemo) and [local](#gradio-interface) demo.
+
 - (🔥 New) Jul. 23, 2024. 💥 Our paper is released on [arxiv](https://arxiv.org/abs/2407.15642).
 
 - (🔥 New) Jun. 2, 2024. 💥 The inference code is released. The checkpoint can be found [here](https://huggingface.co/maxin-cn/Cinemo/tree/main).
