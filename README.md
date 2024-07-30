@@ -9,9 +9,11 @@
 > [Xin Ma](https://maxin-cn.github.io/), [Yaohui Wang*†](https://wyhsirius.github.io/), [Gengyun Jia](https://scholar.google.com/citations?user=_04pkGgAAAAJ&hl=zh-CN), [Xinyuan Chen](https://scholar.google.com/citations?user=3fWSC8YAAAAJ), [Yuan-Fang Li](https://users.monash.edu/~yli/), [Cunjian Chen*](https://cunjian.github.io/), [Yu Qiao](https://scholar.google.com.hk/citations?user=gFtI-8QAAAAJ&hl=zh-CN) <br>
 > (*Corresponding author, †Project Lead)
 
-This repo contains pre-trained weights, and sampling code for our paper exploring image animation with motion diffusion models (Cinemo). You can find more visualizations on our [project page](https://maxin-cn.github.io/cinemo_project/).
+This repo contains pre-trained weights, and sampling code of Cinemo. Please visit our [project page](https://maxin-cn.github.io/cinemo_project/) for more results.
 
+<!--
 In this project, we propose a novel method called Cinemo, which can perform motion-controllable image animation with strong consistency and smoothness. To improve motion smoothness, Cinemo learns the distribution of motion residuals, rather than directly generating subsequent frames. Additionally, a structural similarity index-based method is proposed to control the motion intensity. Furthermore, we propose a noise refinement technique based on discrete cosine transformation to ensure temporal consistency. These three methods help Cinemo generate highly consistent, smooth, and motion-controlled image animation results. Compared to previous methods, Cinemo offers simpler and more precise user control and better generative performance.
+-->
  
 <div align="center">
     <img src="visuals/pipeline.svg">
@@ -19,7 +21,7 @@ In this project, we propose a novel method called Cinemo, which can perform moti
 
 ## News
 
-- (🔥 New) Jul. 29, 2024. 💥 Add the [online](https://huggingface.co/spaces/maxin-cn/Cinemo) and [local](#gradio-interface) demo.
+- (🔥 New) Jul. 29, 2024. 💥 [HuggingFace space](https://huggingface.co/spaces/maxin-cn/Cinemo) is added, you can also launch [gradio interface ](#gradio-interface) locally.
 
 - (🔥 New) Jul. 23, 2024. 💥 Our paper is released on [arxiv](https://arxiv.org/abs/2407.15642).
 
@@ -28,20 +30,22 @@ In this project, we propose a novel method called Cinemo, which can perform moti
 
 ## Setup
 
-First, download and set up the repo:
+Download and set up the repo:
 
 ```bash
 git clone https://github.com/maxin-cn/Cinemo
 cd Cinemo
+conda env create -f environment.yml
+conda activate cinemo
 ```
-
+<!--
 We provide an [`environment.yml`](environment.yml) file that can be used to create a Conda environment. If you only want 
 to run pre-trained models locally on CPU, you can remove the `cudatoolkit` and `pytorch-cuda` requirements from the file.
-
 ```bash
 conda env create -f environment.yml
 conda activate cinemo
 ```
+-->
 
 
 ## Animation 
@@ -52,7 +56,7 @@ You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipe
 bash pipelines/animation.sh
 ```
 
-All related checkpoints will download automatically and then you will get the following results,
+Related models will be downloaded automatically and following results can be obtained,
 
 <table style="width:100%; text-align:center;">
 <tr>
@@ -85,11 +89,11 @@ All related checkpoints will download automatically and then you will get the fo
 </table>
 
 ## Gradio interface
-We also provide a Gradio interface for a better experience, just run by:
+We also provide a local gradio interface, just run:
 ```bash
 python app.py
 ```
-You can specify the `--share` and `--server_name` arguments to satisfy your needs!
+You can specify the `--share` and `--server_name` arguments to meet your requirement!
 
 ## Other Applications
 
@@ -99,7 +103,7 @@ You can also utilize Cinemo for other applications, such as motion transfer and 
 bash pipelines/video_editing.sh
 ```
 
-All related checkpoints will download automatically and you will get the following results,
+Related checkpoints will be downloaded automatically and following results will be obtained,
 
 <table style="width:100%; text-align:center;">
 <tr>
