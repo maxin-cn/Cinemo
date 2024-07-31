@@ -131,6 +131,23 @@ Related checkpoints will be downloaded automatically and following results will 
 
 </table>
 
+or motion transfer,
+<table style="width:100%; text-align:center;">
+<tr>
+  <td align="center">Input video</td>
+  <td align="center">First frame</td>
+  <td align="center">Edited first frame</td>
+  <td align="center">Output video</td>
+</tr>
+<tr>
+  <td align="center"><img src="visuals/motion_transfer/origin/a_man_walking_on_the_beach.gif" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/origin/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/edit/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/edit/a_man_walking_in_the_park.gif" width="100%"></td>
+</tr>
+
+</table>
+
 ## Contact Us
 Xin Ma: xin.ma1@monash.edu,
 Yaohui Wang: wangyaohui@pjlab.org.cn 
