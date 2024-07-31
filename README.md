@@ -77,6 +77,16 @@ All related checkpoints will download automatically and then you will get the fo
   <td align="center" colspan="2">"Girl Dancing under the Stars"</td>
   <td align="center" colspan="2">"Dragon Glowing Eyes"</td>
 </tr>
+<tr>
+  <td align="center"><img src="visuals/animations/bubbles__floating_upwards/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/bubbles__floating_upwards/bubbles__floating_upwards.gif" width="100%"></td>
+  <td align="center"><img src="visuals/animations/snowman_waving_his_hand/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/animations/snowman_waving_his_hand/snowman_waving_his_hand.gif" width="100%"></td>
+</tr>
+<tr>
+  <td align="center" colspan="2">"Girl Dancing under the Stars"</td>
+  <td align="center" colspan="2">"Dragon Glowing Eyes"</td>
+</tr>
 
 </table>
 
@@ -113,6 +123,23 @@ All related checkpoints will download automatically and you will get the followi
 
 </table>
 
+or motion transfer,
+
+<table style="width:100%; text-align:center;">
+<tr>
+  <td align="center">Input video</td>
+  <td align="center">First frame</td>
+  <td align="center">Edited first frame</td>
+  <td align="center">Output video</td>
+</tr>
+<tr>
+  <td align="center"><img src="visuals/motion_transfer/origin/a_man_walking_on_the_beach.gif" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/origin/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/edit/0.jpg" width="100%"></td>
+  <td align="center"><img src="visuals/motion_transfer/edit/a_man_walking_in_the_park.gif" width="100%"></td>
+</tr>
+
+</table>
 
 
 ## Citation
