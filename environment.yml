@@ -19,3 +19,6 @@ dependencies:
     - scikit-image
     - decord
     - pandas
+    - imageio-ffmpeg
+    - torch_dct
+    - omegaconf
