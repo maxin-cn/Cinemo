@@ -270,12 +270,15 @@ with gr.Blocks() as demo:
         input_image_path.submit(fn=update_and_resize_image, inputs=[input_image_path, height, width], outputs=[input_image])
 
         EXAMPLES = [
-            ["./example/aircrafts_flying/0.jpg", "aircrafts flying"                   , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
-            ["./example/fireworks/0.jpg", "fireworks"                                 , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
+            ["./example/aircrafts_flying/0.jpg", "aircrafts flying"                   , "low quality", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
+            ["./example/fireworks/0.jpg", "fireworks"                                 , "low quality", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
             ["./example/flowers_swaying/0.jpg", "flowers swaying"                     , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
-            ["./example/girl_walking_on_the_beach/0.jpg", "girl walking on the beach" , "", 50, 320, 512, 7.5, True, 0.23, 985, 10, 200],
-            ["./example/house_rotating/0.jpg", "house rotating"                       , "", 50, 320, 512, 7.5, True, 0.23, 985, 10, 100],
-            ["./example/people_runing/0.jpg", "people runing"                         , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
+            ["./example/girl_walking_on_the_beach/0.jpg", "girl walking on the beach" , "low quality, background changing", 50, 320, 512, 7.5, True, 0.25, 995, 10, 49494220],
+            ["./example/house_rotating/0.jpg", "house rotating"                       , "low quality", 50, 320, 512, 7.5, True, 0.23, 985, 10, 46640174],
+            ["./example/people_runing/0.jpg", "people runing"                         , "low quality, background changing", 50, 320, 512, 7.5, True, 0.23, 975, 10, 100],
+            ["./example/shark_swimming/0.jpg", "shark swimming"                       , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 32947978],
+            ["./example/car_moving/0.jpg", "car moving"                               , "", 50, 320, 512, 7.5, True, 0.23, 975, 10, 75469653],
+            ["./example/windmill_turning/0.jpg", "windmill turning"                   , "background changing", 50, 320, 512, 7.5, True, 0.21, 975, 10, 89378613],
 ]
 
         examples = gr.Examples(
@@ -306,4 +309,4 @@ with gr.Blocks() as demo:
                 outputs=[result_video]
             )
     
-demo.launch(debug=False, share=True, server_name="Cinemo")
+demo.launch(debug=False, share=True, server_name="127.0.0.1")
