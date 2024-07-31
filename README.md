@@ -7,7 +7,7 @@
 
 > [**Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models**](https://maxin-cn.github.io/cinemo_project/)<br>
 > [Xin Ma](https://maxin-cn.github.io/), [Yaohui Wang*†](https://wyhsirius.github.io/), [Gengyun Jia](https://scholar.google.com/citations?user=_04pkGgAAAAJ&hl=zh-CN), [Xinyuan Chen](https://scholar.google.com/citations?user=3fWSC8YAAAAJ), [Yuan-Fang Li](https://users.monash.edu/~yli/), [Cunjian Chen*](https://cunjian.github.io/), [Yu Qiao](https://scholar.google.com.hk/citations?user=gFtI-8QAAAAJ&hl=zh-CN) <br>
-> (*Corresponding author, †Project Lead)
+> (*Corresponding authors, †Project Lead)
 
 This repo contains pre-trained weights, and sampling code of Cinemo. Please visit our [project page](https://maxin-cn.github.io/cinemo_project/) for more results.
 
@@ -56,7 +56,7 @@ You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipe
 bash pipelines/animation.sh
 ```
 
-Related models will be downloaded automatically and following results can be obtained,
+Related model weights will be downloaded automatically and following results can be obtained,
 
 <table style="width:100%; text-align:center;">
 <tr>
@@ -131,7 +131,9 @@ Related checkpoints will be downloaded automatically and following results will 
 
 </table>
 
-
+## Contact Us
+Xin Ma: xin.ma1@monash.edu,
+Yaohui Wang: wangyaohui@pjlab.org.cn 
 
 ## Citation
 If you find this work useful for your research, please consider citing it.
