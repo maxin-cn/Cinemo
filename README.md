@@ -92,8 +92,8 @@ Related model weights will be downloaded automatically and following results can
   <td align="center"><img src="visuals/animations/snowman_waving_his_hand/snowman_waving_his_hand.gif" width="100%"></td>
 </tr>
 <tr>
-  <td align="center" colspan="2">"Girl Dancing under the Stars"</td>
-  <td align="center" colspan="2">"Dragon Glowing Eyes"</td>
+  <td align="center" colspan="2">"Bubbles Floating upwards"</td>
+  <td align="center" colspan="2">"Snowman Waving his Hand"</td>
 </tr>
 
 </table>
