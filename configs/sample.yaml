@@ -1,8 +1,6 @@
 # ckpt
-ckpt: /mnt/lustre/maxin/work/animation/animation-v6/results_qt_003-UNet-pixabaylaion-Xfor-Gc-320_512_0303000.pt
 save_img_path: "./sample_videos/"
 
-# pretrained_model_path: "/mnt/hwfile/gcc/maxin/work/pretrained/stable-diffusion-v1-4/"
 pretrained_model_path: "maxin-cn/Cinemo"
 
 # model config: 
