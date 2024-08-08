@@ -23,6 +23,7 @@ from copy import deepcopy
 from PIL import Image
 from datasets import video_transforms
 from torchvision import transforms
+from models.unet import UNet3DConditionModel
 
 def prepare_image(path, vae, transform_video, device, dtype=torch.float16):
     with open(path, 'rb') as f:
@@ -83,9 +84,10 @@ def main(args):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.float16 # torch.float16
 
-    unet = get_models(args).to(device, dtype=torch.float16)
-    state_dict = find_model(args.ckpt)
-    unet.load_state_dict(state_dict)
+    # unet = get_models(args).to(device, dtype=torch.float16)
+    # state_dict = find_model(args.ckpt)
+    # unet.load_state_dict(state_dict)
+    unet = UNet3DConditionModel.from_pretrained(args.pretrained_model_path, subfolder="unet").to(device, dtype=torch.float16)
     
     if args.enable_vae_temporal_decoder:
         if args.use_dct:

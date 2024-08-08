@@ -1,8 +1,7 @@
 # ckpt
-ckpt: /mnt/lustre/maxin/work/animation/animation-v6/results_qt_003-UNet-pixabaylaion-Xfor-Gc-320_512_0303000.pt
+ckpt: # not used
 save_img_path: "./sample_videos/"
 
-# pretrained_model_path: "/mnt/hwfile/gcc/maxin/work/pretrained/stable-diffusion-v1-4/"
 pretrained_model_path: "maxin-cn/Cinemo"
 
 # model config: 
@@ -23,7 +22,7 @@ seed:
 run_time: 0
 use_dct: True
 guidance_scale: 7.5 #
-motion_bucket_id: 95 # [0-19] The larger the value, the stronger the motion intensity
+motion_bucket_id: 95 # [0-19] The larger the value, the smaller the motion intensity
 sample_method: 'DDIM'
 num_sampling_steps: 50
 enable_vae_temporal_decoder: True
