@@ -157,7 +157,7 @@ If you find this work useful for your research, please consider citing it.
 ```bibtex
 @article{ma2024cinemo,
   title={Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models},
-  author={Ma, Xin and Wang, Yaohui and Jia, Gengyun and Chen, Xinyuan and Li, Yuan-Fang and Chen, Cunjian and Qiao, Yu},
+  author={Ma, Xin and Wang, Yaohui and Jia, Gengyun and Chen, Xinyuan and Wong, Tien-Tsin and Li, Yuan-Fang and Chen, Cunjian},
   journal={arXiv preprint arXiv:2407.15642},
   year={2024}
 }
