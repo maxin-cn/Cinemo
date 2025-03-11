@@ -21,6 +21,8 @@ In this project, we propose a novel method called Cinemo, which can perform moti
 
 ## News
 
+- (🔥 New) Feb. 27, 2025. 💥 Our paper is accepted by CVPR 2025.
+
 - (🔥 New) Jul. 29, 2024. 💥 [HuggingFace space](https://huggingface.co/spaces/maxin-cn/Cinemo) is added, you can also launch [gradio interface ](#gradio-interface) locally.
 
 - (🔥 New) Jul. 23, 2024. 💥 Our paper is released on [arxiv](https://arxiv.org/abs/2407.15642).
