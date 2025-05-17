@@ -58,7 +58,7 @@ You can sample from our **pre-trained Cinemo models** with [`animation.py`](pipe
 bash pipelines/animation.sh
 ```
 
-Related model weights will be downloaded automatically and following results can be obtained,
+Related model weights will be downloaded automatically, and the following results can be obtained,
 
 <table style="width:100%; text-align:center;">
 <tr>
